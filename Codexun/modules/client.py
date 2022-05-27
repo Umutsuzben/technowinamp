@@ -516,9 +516,9 @@ async def cbabout(_, query: CallbackQuery):
 
 **[{BOT_NAME}](https://t.me/{BOT_USERNAME})** Müzik Botu **@OrmanCocuklariylaMucadele** Tarafından gruplarınızın sesli sohbetinde yüksek kaliteli ve kırılmaz bir müzik çalmak için tasarlanmış bottur.
 
-This bot helps you to play music, to search music from youtube and to download music from youtube server and many more features related to telegram voice chat feature.
+Bu bot, müzik çalmanıza, youtube'dan müzik aramanıza ve youtube sunucusundan müzik indirmenize ve telegram sesli sohbet özelliği ile ilgili daha birçok özelliğe yardımcı olur.
 
-**Assistant :- @{ASSUSERNAME}**""",
+**Asistan :- @{ASSUSERNAME}**""",
         reply_markup=InlineKeyboardMarkup(
             [
               [
@@ -860,7 +860,7 @@ async def first(_, CallbackQuery):
 @Client.on_callback_query(filters.regex("nonabout"))
 async def nonabout(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""**Here is the some basic information about to {BOT_NAME},From here you can simply contact us and can join us!**""",
+        f"""**İşte bununla ilgili bazı temel bilgiler {BOT_NAME},Buradan bizimle iletişime geçebilir ve bize katılabilirsiniz!**""",
         reply_markup=InlineKeyboardMarkup(
             [
               [
