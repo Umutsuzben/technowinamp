@@ -176,13 +176,11 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
     # description
     views = f"Görüntüleme : {views}"
-    duration = f"Süre : {duration} minutes"
-    channel = f"Sahip : ɨʀʀɛɢʊʟǟʀ #𝐄𝐱𝐭𝐫𝐞𝐦𝐞 "
-
+    duration = f"Süre : {duration} saniye"
+    
     image4.text((670, 410), text=views, fill="yellow", font = font4, align ="left") 
     image4.text((670, 460), text=duration, fill="yellow", font = font4, align ="left") 
-    image4.text((670, 510), text=channel, fill="yellow", font = font4, align ="left")
-
+    
     
     image2.save(f"final.png")
     os.remove(f"background.png")
