@@ -875,7 +875,7 @@ async def nonabout(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("dbconfirm"))
 async def dbconfirm(_, query: CallbackQuery):
     if query.message.sender_chat:
-        return await query.answer("Sen İsimsiz bir Yöneticisin !\n\n" yönetici haklarından kullanıcı hesabına geri dön.")
+        return await query.answer("Sen İsimsiz bir Yöneticisin!\n\nYönetici haklarından kullanıcı hesabına geri dön.")
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
         return await query.answer("Sadece yöneticiler bunu kullanır..!", show_alert=True)
