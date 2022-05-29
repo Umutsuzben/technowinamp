@@ -423,7 +423,7 @@ async def cleandb(_, CallbackQuery):
         except Exception:
             pass
         await remove_active_chat(chat_id)
-        await CallbackQuery.answer("Db cleaned successfully!", show_alert=True)
+        await CallbackQuery.answer("Liste Temizlendi", show_alert=True)
         user_id = CallbackQuery.from_user.id
         user_name = CallbackQuery.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
