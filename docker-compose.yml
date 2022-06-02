@@ -1,6 +1,6 @@
 version: "4"
 services:
-  worker:
+  talia:
     build: .
     environment:
       API_ID: $API_ID
