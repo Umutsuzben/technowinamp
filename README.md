@@ -74,6 +74,13 @@ Then simply contact us at support group.
 ```
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Iregullar/technowinamp"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>  
 <p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=UGF2YW5NYWdhci9Db2RleHVuTXVzaWNCb3QgbWFpbg"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+    
+    
+## ᴅᴇᴩʟᴏʏ ᴏɴ ᴏᴋᴛᴇᴛᴏ
+
+<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/AnonymousR1025/FallenMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200" height="35.45"/></a></p>
+The second easiest way to host this bot, Deploy on Okteto Cloud
+    
 
 
 ## Get Support
