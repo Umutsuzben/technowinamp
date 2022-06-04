@@ -239,6 +239,14 @@ async def play(_, message: Message):
             "**Bana** `kullanıcıyı davet et` **yönetici izni ver.**"
         )
         return
+    try:
+        b = await app.get_chat_member(message.chat.id, ASSID)
+        if b.status == "kicked":
+            await message.reply_text(
+                f"🔴 {ASSNAME} (@{ASSUSERNAME}) sohbetinizde yasaklandı **{message.chat.title}**\n\nMüziği kullanmak için önce banını kaldırın"
+            )
+            return
+    
     except UserNotParticipant:
         if message.chat.username:
             try:
