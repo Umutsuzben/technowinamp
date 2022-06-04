@@ -155,7 +155,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     #lum_img_arr =np.array(lum_img)
     #final_img_arr = np.dstack((img_arr,lum_img_arr))
     #image3 = Image.fromarray(final_img_arr)
-    image3 = image3.resize((440,440))
+    image3 = image3.resize((500,500))
     
 
     image2.paste(image3, (100,115))
