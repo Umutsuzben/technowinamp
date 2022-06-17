@@ -1,37 +1,4 @@
 
-<h2 align="centre">Codexun Music Bot</h2>
-
-<p align="center">
-    <br><b>Telegram music bot which can helps to play music on groups voice chat.</b><br>
-</p>
-
-<p align="center">
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/PavanMagar/CodexunMusicBot"> <img src="https://img.shields.io/github/forks/PavanMagar/CodexunMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/PavanMagar/CodexunMusicBot"> <img src="https://img.shields.io/github/repo-size/PavanMagar/CodexunMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>    
-    <a href="https://github.com/PavanMagar/CodexunMusicBot"> <img src="https://img.shields.io/github/stars/PavanMagar/CodexunMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-</p>
-
-<p align="center"><a href="https://t.me/codexun"><img src="https://telegra.ph/file/5a49680de5759f290ad8d.jpg"></a></p>
-<p align="center">
-
-<p align="center">
-    <br><b>Kangers Welcome You!</b><br>
-</p>
-
-
-<h3>
-
-## Requirements
-
-- FFmpeg
-- Python 3.10.0
-- [NodeJS](https://nodesource.com/)
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-- [MongoDB](https://cloud.mongodb.com/)
-
-
-## Commands List
 
 #### For all in group
 - `/play <reply/url>` - Youtube url
@@ -57,9 +24,6 @@
 - `/exec <code>` - Excute a code
 - `/userbotleaveall` - remove assistant of all groups
 
-###  GET STRING SESSION
-
- [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TeamCodexun/Codexun-String?v=1)
 
 ## Heroku Deployment
 
@@ -83,24 +47,3 @@ The second easiest way to host this bot, Deploy on Okteto Cloud
     
 
 
-## Get Support
-
-<a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-
-
-## Credits
-
-</details>
-
-<details>
-<summary><b> Click to see credits </b></summary>
-<br>
- 
-- Callmusic 
-- VCPlayerBot
-- Veez
-- TGVCBot
-- Yukki
-- PyTgCalls
-
-~ Some pirro's thinking that it's a kang of [YukkiMusicBot](https://t.me/TheYukki) for their kind information, This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork YukkiMusicBot wont exist. YukkiMusicBot is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of some users.
